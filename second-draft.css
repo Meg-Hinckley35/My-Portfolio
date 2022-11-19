@@ -1,0 +1,60 @@
+/* header properties */
+.header {
+  box-sizing: border-box;
+  background-color: lightslategrey;
+  color: bisque;
+  padding: 10px;
+  margin: 1%;
+}
+/* body properties */
+.body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  margin: 2%;
+  box-sizing: border-box;
+  background-color: bisque;
+  color: black;
+}
+
+/* navbar container */
+.nav {
+  display: inline;
+  overflow: hidden;
+  background-color: rgb(204, 234, 244);
+  padding: 10px;
+}
+
+/* navbar links */
+.nav a {
+float: left;
+display: inline;
+color: rgb(32, 178, 159);
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+margin: 1%;
+}
+
+.card {
+  border: 2px solid black;
+  background-color: beige;
+  border-radius: 25px;
+  padding: 10px;
+  margin: 1%;
+}
+
+/* screen resizing */
+@media screen and (max-width: 600px){
+  .nav a {
+    float: none;
+    width: 100%;
+  }
+}
+
+/* hover properties */
+a:hover {
+  color: white;
+}
+
+
