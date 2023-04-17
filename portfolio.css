@@ -1,19 +1,64 @@
+/* header properties */
+.header {
+  box-sizing: border-box;
+  background-color: lightslategrey;
+  color: rgb(7, 40, 125);
+  padding: 10px;
+  margin: 1%;
+}
+/* body properties */
+.body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  margin: 2%;
+  box-sizing: border-box;
+  background-color: bisque;
+  color: black;
+}
 
+/* navbar container */
+.nav {
+  list-style-type: none;
+  background: #154c85;
+  margin: 0;
+  padding: 0;
+  width: flex;
+  position: relative;
+  text-align: center;
+}
 
-
+/* navbar links */
+.nav-link {
+border: 2px solid black;
+background-color: beige;
+border-radius: 30px;
+display: inline-flex;
+color: rgb(4, 41, 94);
+text-align: center;
+padding: 5px;
+margin: 2px;
+}
 
 .card {
-    /* Add shadows to create the "card" effect */
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
+  border: 2px solid black;
+  background-color: beige;
+  border-radius: 25px;
+  padding: 10px;
+  margin: 1%;
+}
+
+/* screen resizing */
+@media screen and (max-width: 600px){
+  .nav a {
+    float: none;
+    width: 100%;
   }
-  
-  /* On mouse-over, add a deeper shadow */
-  .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-  }
-  
-  /* Add some padding inside the card container */
-  .container {
-    padding: 2px 16px;
-  }
+}
+
+/* hover properties */
+a:hover {
+  color: white;
+}
+
+

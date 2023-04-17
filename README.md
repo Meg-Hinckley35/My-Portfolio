@@ -7,8 +7,9 @@ This page is my portfolio.
 
 I put a header in with my name and a small comment for creating something neat.
 
-I have added a profile picture, but still have not been able to make it show.  There is alternate text that explains what is in that img spot.
-UPDATE: added a picture from internet instead of trying to insert picture from desktop.  Worked better, still will try to figure out how to add from desktop.
+I have added a profile picture.
+There is alternate text that explains what is in that img spot.
+UPDATE: added a picture from internet instead of trying to insert picture from desktop.
 
 I have created spaces in the html for me to add information about myself, my background, and where I can link my sample work.
 
