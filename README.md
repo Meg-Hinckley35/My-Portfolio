@@ -1,8 +1,5 @@
 # My-Portfolio
 
-file:///Users/meganmccartney/bootcamp/Bootcamp/CU-VIRT-FSF-PT-10-2022-U-LOLC/My-Portfolio/My-Portfolio.html
-
-
 This page is my portfolio.
 
 I put a header in with my name and a small comment for creating something neat.
