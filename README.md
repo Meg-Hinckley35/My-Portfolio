@@ -1,18 +1,13 @@
 # My-Portfolio
 
-This page is my portfolio.
+This project was challenging in a way I didn't expect.  I found a fun video online that showed so many new and different CSS styling ideas.  It was very interesting to see a webpage take shape like that.
 
-I put a header in with my name and a small comment for creating something neat.
+This my first portfolio.  It was a challenge that I will continue to hard to improve.
 
-I have added a profile picture.
-There is alternate text that explains what is in that img spot.
-UPDATE: added a picture from internet instead of trying to insert picture from desktop.
+I created anchor links in a navigaton section to connect to the info below.  So far I cannot quite tell why the anchor links are not working.
 
-I have created spaces in the html for me to add information about myself, my background, and where I can link my sample work.
+I was able to find and add icons from "font awesome".  Those were fun to play around with and style into shapes.
 
-I created anchor links in a navigaton bar to connect to the info cards.  So far I cannot quite tell why the anchor links are not working.
+The code is broken down into an html file and a css file.  In the future I want to add more images and create more of gallery section for the project links.
 
-I added colors and card properties in a CSS file.
-
-There are spaces for sample work links, but I have not added links yet.
 
