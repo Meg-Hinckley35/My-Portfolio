@@ -70,24 +70,27 @@ section {
 
 .sec1{
   display: none;
-  transform: translateY(0) scale(1);
+  
 }
 
 .sec2{
   display: none;
-  transform: translateY(0) scale(1);
+  box-shadow: #2a2e35;
+  border-radius: 25%;
+  outline-style: dotted;
 }
 
 .sec3{
   display: none;
-  transform: translateY(0) scale(1);
   background-color: green;
   opacity: 0.6;
 }
 
 .sec4{
   display: none;
-  transform: translateY(0) scale(1);
+  box-shadow: #2a2e35;
+  border-radius: 25%;
+  outline-style: dotted;
 }
 
 /* Controls */
@@ -184,9 +187,7 @@ img{
   .name{
     font-size: 3rem;  
   }
-  span{
-    color: var(--color-secondary);
-  }
+
   p{
     margin: 1.5rem 0;
     line-height: 2rem;
@@ -203,7 +204,7 @@ img{
 
 /* hover properties */
 i:hover {
-  color: white;
+  color: aliceblue;
 }
 
 
