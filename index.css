@@ -53,19 +53,27 @@ a{
   color: var(--color-white);
  
 }
+.nav{
+  display: contents;
+}
 
 section {
+  block-size: 30rem;
   min-height: 100vh;
-  width: 100%;
-  position: absolute;
-  left: 0;
-  top: 0;
+  width: 95%;
+  position:sticky;
+  left: 10;
+  top: 10;
   padding: 3rem 18rem;  
 }
 .section{
-  transform: translate(-100%) scale(0);
-  transition: all .4s ease-in-out;
+  box-sizing: border-box;
+  border-radius: 20%;
+  font-weight: 150;
   background-color: var(--color-primary);
+  color: aliceblue;
+  font-size:x-large;
+  margin-left: 60px;
 }
 
 .sec1{
@@ -74,23 +82,32 @@ section {
 }
 
 .sec2{
-  display: none;
+  display: contents;
   box-shadow: #2a2e35;
   border-radius: 25%;
   outline-style: dotted;
 }
 
 .sec3{
-  display: none;
-  background-color: green;
-  opacity: 0.6;
-}
-
-.sec4{
-  display: none;
+  display: contents;
   box-shadow: #2a2e35;
   border-radius: 25%;
   outline-style: dotted;
+}
+
+.sec4{
+  display: contents;
+  box-shadow: #2a2e35;
+  border-radius: 25%;
+  outline-style: dotted;
+}
+
+.sec5{
+  display: contents;
+  box-shadow: #2a2e35;
+  border-radius: 25%;
+  outline-style: dotted;
+  border-image-width: 4%;
 }
 
 /* Controls */
@@ -156,14 +173,14 @@ i{
   z-index: -1;
 }
 
-.image{
+/* .image{
   border-radius: var(--br-sm-2);
   height: 90%;
   width: 68%;
   margin-left: 4rem;
   background-color: var(--color-black);
   transition: all 4s ease-in-out;
-}
+} */
 
 img{
   width: 100%;
@@ -191,6 +208,13 @@ img{
   p{
     margin: 1.5rem 0;
     line-height: 2rem;
+  }
+
+  #background{
+    border: #b2becd;
+    box-sizing: content-box;
+    outline-width: 3rem;
+
   }
 /* Independent components*/
 
