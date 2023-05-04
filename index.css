@@ -58,7 +58,7 @@ a{
 }
 
 section {
-  block-size: 30rem;
+  border-style: solid;
   min-height: 100vh;
   width: 95%;
   position:sticky;
@@ -67,6 +67,7 @@ section {
   padding: 3rem 18rem;  
 }
 .section{
+  border-style: solid;
   box-sizing: border-box;
   border-radius: 20%;
   font-weight: 150;
@@ -82,6 +83,7 @@ section {
 }
 
 .sec2{
+  text-align: center;
   display: contents;
   box-shadow: #2a2e35;
   border-radius: 25%;
@@ -89,6 +91,7 @@ section {
 }
 
 .sec3{
+  text-align: center;
   display: contents;
   box-shadow: #2a2e35;
   border-radius: 25%;
@@ -96,6 +99,7 @@ section {
 }
 
 .sec4{
+  text-align: center;
   display: contents;
   box-shadow: #2a2e35;
   border-radius: 25%;
@@ -103,6 +107,7 @@ section {
 }
 
 .sec5{
+  text-align: center;
   display: contents;
   box-shadow: #2a2e35;
   border-radius: 25%;
